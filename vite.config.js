@@ -14,7 +14,7 @@ export default defineConfig({
       '@apps': resolve(__dirname, 'apps')
     }
   },
-  base: './lamp/',
+  base: './',
   build: {
     outDir: 'docs'
   }
