@@ -159,9 +159,9 @@ function App() {
     return (
       <div className="app">
         <div className="intro-container">
-          <h1>성격유형검사</h1>
+          <h1>LAMP 성격유형검사</h1>
           <p>당신의 성격을 분석해보세요!</p>
-          <p>{state.questions.length}개의 문항에 답변하면 잠재 특성과 최종 결과를 확인할 수 있습니다.</p>
+          <p>{state.questions.length}개의 문항에 답변하면서 실시간으로 변화하는 잠재 특성과 최종 결과를 확인할 수 있습니다.</p>
           <button className="start-btn" onClick={startTest}>
             검사 시작하기
           </button>
@@ -346,7 +346,7 @@ function App() {
 
         {/* 실시간 특성 모니터링 */}
         <div className="traits-monitor">
-          <h3>실시간 특성 변화</h3>
+          <h3>잠재 특성</h3>
           {latentTraitsData && Object.keys(latentTraitsData).map(categoryKey => {
             const category = latentTraitsData[categoryKey]
             return (
@@ -370,7 +370,7 @@ function App() {
 
         {/* 실시간 최종 결과 모니터링 */}
         <div className="final-results-monitor">
-          <h3>실시간 3축 모델 결과</h3>
+          <h3>3축 모델 최종 결과</h3>
           
           {/* 축 1: 정신의 권력 구조 */}
           <div className="axis-preview-section">
