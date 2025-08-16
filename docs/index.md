@@ -1,6 +1,6 @@
-# 차세대 성격 분석 모델 개발 프로젝트 기획서
+# LAMP - A Next-Generation Personality Analysis Model
 
-**Project Title:** _The Archetype Engine – A Next-Generation Personality Analysis Model_
+Latent Archetype Mapping Profile
 
 ## 1. 프로젝트 개요 (Project Overview)
 
@@ -149,4 +149,4 @@ _(고객층에게는 수학적 세부사항까지 공개되지는 않겠지만, 
     - _연구 및 정책:_ 충분한 표본의 데이터를 익명화해 축적하면, **인간 성격에 대한 학술 연구** (예: 성격과 삶의 만족도, 성격과 사회적 행동 연관성 등)에 기여하거나, 정책 입안 시 세대별 성향 파악 자료로 활용될 수도 있다.
         
 
-궁극적으로, **The Archetype Engine** 프로젝트는 개인과 사회 모두에 가치 있는 성과를 낼 것으로 기대된다. 개인에게는 자신에 대한 **다층적 통찰**과 **성장 방향성**을 제시하고[ionos.com](https://www.ionos.com/startupguide/productivity/disc-assessment/#:~:text=All%20tests%20however%20also%20have,specific%20strengths), 시장에는 한 차원 진보된 성격 분석 도구를 공급하며, 나아가 축적된 지식은 **인간 이해의 지평을 넓히는 학문적 자산**이 될 수 있다. 이러한 선순환을 통해 본 프로젝트는 심리측정학 분야의 새로운 패러다임을 여는 계기가 될 것이다.
+궁극적으로, **LAMP** 프로젝트는 개인과 사회 모두에 가치 있는 성과를 낼 것으로 기대된다. 개인에게는 자신에 대한 **다층적 통찰**과 **성장 방향성**을 제시하고[ionos.com](https://www.ionos.com/startupguide/productivity/disc-assessment/#:~:text=All%20tests%20however%20also%20have,specific%20strengths), 시장에는 한 차원 진보된 성격 분석 도구를 공급하며, 나아가 축적된 지식은 **인간 이해의 지평을 넓히는 학문적 자산**이 될 수 있다. 이러한 선순환을 통해 본 프로젝트는 심리측정학 분야의 새로운 패러다임을 여는 계기가 될 것이다.
