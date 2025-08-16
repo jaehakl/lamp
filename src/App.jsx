@@ -13,11 +13,11 @@ function App() {
   useEffect(() => {
     // 두 개의 JSON 파일을 병렬로 로드
     Promise.all([
-      fetch('/data/questions.json').then(response => {
+      fetch('./data/questions.json').then(response => {
         if (!response.ok) throw new Error('questions.json 로드 실패')
         return response.json()
       }),
-      fetch('/data/latent.json').then(response => {
+      fetch('./data/latent.json').then(response => {
         if (!response.ok) throw new Error('latent.json 로드 실패')
         return response.json()
       })
