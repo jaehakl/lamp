@@ -1,0 +1,562 @@
+{
+  "categories": {
+    "cognitiveStyle": {
+      "name": "인지 스타일",
+      "description": "사고와 정보 처리 방식",
+      "traits": {
+        "informationProcessing": {
+          "label": "정보인식방식",
+          "positivePole": {
+            "name": "추상적 / 개념적 사고 (Abstract)",
+            "description": "나무보다 숲을 보고, 패턴과 이면의 의미를 중시"
+          },
+          "negativePole": {
+            "name": "구체적 / 경험적 사고 (Concrete)",
+            "description": "오감으로 확인된 사실과 실제 데이터를 신뢰"
+          },
+          "finalWeights": {
+            "id": 0.3,
+            "ego": -0.2,
+            "superego": -0.1,
+            "oral": 0.1,
+            "anal": -0.3,
+            "phallic": 0.2,
+            "order": -0.4,
+            "balance": 0.0,
+            "chaos": 0.3
+          }
+        },
+        "judgmentCriteria": {
+          "label": "판단기준",
+          "positivePole": {
+            "name": "분석적 / 객관적 판단 (Impersonal)",
+            "description": "논리와 원칙, 효율성을 기준으로 결론 도출"
+          },
+          "negativePole": {
+            "name": "관계적 / 인간중심적 판단 (Personal)",
+            "description": "관계와 조화, 타인의 감정을 고려하여 결론 도출"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.3,
+            "superego": 0.2,
+            "oral": 0.2,
+            "anal": 0.1,
+            "phallic": -0.1,
+            "order": 0.2,
+            "balance": 0.3,
+            "chaos": -0.2
+          }
+        },
+        "thinkingDirection": {
+          "label": "사고방향",
+          "positivePole": {
+            "name": "확산적 사고 (Divergent Thinking)",
+            "description": "하나의 주제에서 여러 가능성과 아이디어를 창출"
+          },
+          "negativePole": {
+            "name": "수렴적 사고 (Convergent Thinking)",
+            "description": "여러 정보 속에서 하나의 최적의 답을 찾아냄"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": -0.1,
+            "superego": 0.1,
+            "oral": 0.1,
+            "anal": -0.2,
+            "phallic": 0.3,
+            "order": -0.3,
+            "balance": 0.1,
+            "chaos": 0.4
+          }
+        },
+        "processingSpeed": {
+          "label": "처리속도",
+          "positivePole": {
+            "name": "직관적 / 신속한 처리 (Intuitive)",
+            "description": "육감과 통찰에 의존하여 빠르게 결론에 도달"
+          },
+          "negativePole": {
+            "name": "숙고적 / 신중한 처리 (Deliberative)",
+            "description": "정보를 충분히 검토하고 분석하여 신중하게 결론"
+          },
+          "finalWeights": {
+            "id": 0.3,
+            "ego": 0.1,
+            "superego": -0.2,
+            "oral": 0.1,
+            "anal": -0.1,
+            "phallic": 0.2,
+            "order": -0.2,
+            "balance": 0.0,
+            "chaos": 0.3
+          }
+        },
+        "explorationExecution": {
+          "label": "탐색과 실행",
+          "positivePole": {
+            "name": "개방적 / 적응적 탐색 (Exploring)",
+            "description": "결정을 미루고 정보를 계속 탐색하며 유연하게 대응"
+          },
+          "negativePole": {
+            "name": "체계적 / 결정적 실행 (Executing)",
+            "description": "빠르게 계획을 수립하고 결정하여 실행에 집중"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": -0.1,
+            "superego": 0.1,
+            "oral": 0.2,
+            "anal": -0.3,
+            "phallic": 0.2,
+            "order": -0.4,
+            "balance": 0.1,
+            "chaos": 0.3
+          }
+        },
+        "focusMethod": {
+          "label": "집중방식",
+          "positivePole": {
+            "name": "단일과업 집중 (Monotasking)",
+            "description": "한 번에 하나의 일에 깊게 몰입하는 것을 선호"
+          },
+          "negativePole": {
+            "name": "다중과업 전환 (Multitasking)",
+            "description": "여러 일을 동시에 처리하며 빠르게 전환하는 것을 선호"
+          },
+          "finalWeights": {
+            "id": -0.1,
+            "ego": 0.3,
+            "superego": 0.2,
+            "oral": -0.1,
+            "anal": 0.3,
+            "phallic": -0.1,
+            "order": 0.3,
+            "balance": 0.1,
+            "chaos": -0.2
+          }
+        }
+      }
+    },
+    "emotionalPattern": {
+      "name": "감정 패턴",
+      "description": "감정 표현과 정서적 반응 방식",
+      "traits": {
+        "emotionalStability": {
+          "label": "정서안정성",
+          "positivePole": {
+            "name": "정서적 안정성 (Emotionally Stable)",
+            "description": "스트레스 상황에서도 평정심을 유지하는 경향"
+          },
+          "negativePole": {
+            "name": "정서적 민감성 (Emotionally Sensitive)",
+            "description": "외부 자극에 감정이 쉽게 변하고 강하게 반응"
+          },
+          "finalWeights": {
+            "id": -0.2,
+            "ego": 0.4,
+            "superego": 0.3,
+            "oral": -0.1,
+            "anal": 0.4,
+            "phallic": -0.2,
+            "order": 0.3,
+            "balance": 0.1,
+            "chaos": -0.3
+          }
+        },
+        "emotionExpression": {
+          "label": "감정표현",
+          "positivePole": {
+            "name": "외현적 표현 (Expressive)",
+            "description": "자신의 감정을 외부로 솔직하고 풍부하게 드러냄"
+          },
+          "negativePole": {
+            "name": "내현적 억제 (Reserved)",
+            "description": "감정을 잘 드러내지 않고 내면으로 다스림"
+          },
+          "finalWeights": {
+            "id": 0.3,
+            "ego": -0.1,
+            "superego": 0.1,
+            "oral": 0.3,
+            "anal": -0.2,
+            "phallic": 0.2,
+            "order": -0.1,
+            "balance": 0.1,
+            "chaos": 0.2
+          }
+        },
+        "basicMood": {
+          "label": "기본기분",
+          "positivePole": {
+            "name": "낙관주의 (Optimistic)",
+            "description": "미래를 긍정적으로 전망하고 사건의 밝은 면을 봄"
+          },
+          "negativePole": {
+            "name": "현실주의 / 비관주의 (Realistic/Pessimistic)",
+            "description": "상황의 어려움이나 부정적 가능성을 먼저 인지"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.2,
+            "superego": 0.1,
+            "oral": 0.2,
+            "anal": 0.1,
+            "phallic": 0.1,
+            "order": 0.1,
+            "balance": 0.2,
+            "chaos": 0.0
+          }
+        },
+        "resilience": {
+          "label": "회복탄력성",
+          "positivePole": {
+            "name": "높은 회복탄력성 (Resilient)",
+            "description": "실패나 역경으로부터 빠르게 회복하고 다시 시도"
+          },
+          "negativePole": {
+            "name": "낮은 회복탄력성 (Vulnerable)",
+            "description": "부정적 경험의 충격이 오래가고 다시 일어서기 어려움"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.3,
+            "superego": 0.2,
+            "oral": 0.1,
+            "anal": 0.2,
+            "phallic": 0.1,
+            "order": 0.2,
+            "balance": 0.2,
+            "chaos": -0.1
+          }
+        },
+        "empathyStyle": {
+          "label": "공감방식",
+          "positivePole": {
+            "name": "인지적 공감 (Cognitive Empathy)",
+            "description": "타인의 감정을 머리로 이해하고 분석하는 능력"
+          },
+          "negativePole": {
+            "name": "정서적 공감 (Affective Empathy)",
+            "description": "타인의 감정을 자신의 것처럼 함께 느끼는 능력"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.3,
+            "oral": 0.3,
+            "anal": 0.1,
+            "phallic": 0.1,
+            "order": 0.1,
+            "balance": 0.2,
+            "chaos": 0.1
+          }
+        }
+      }
+    },
+    "motivationValues": {
+      "name": "동기 및 가치관",
+      "description": "행동 동기와 가치 기준",
+      "traits": {
+        "motivationSource": {
+          "label": "동기원천",
+          "positivePole": {
+            "name": "내재적 동기 (Intrinsic Motivation)",
+            "description": "성취감, 흥미, 자기만족 등 내면의 보상을 중시"
+          },
+          "negativePole": {
+            "name": "외재적 동기 (Extrinsic Motivation)",
+            "description": "금전, 명예, 칭찬 등 외부의 보상을 중시"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.2,
+            "superego": 0.4,
+            "oral": 0.4,
+            "anal": -0.1,
+            "phallic": 0.2,
+            "order": -0.1,
+            "balance": 0.2,
+            "chaos": 0.1
+          }
+        },
+        "pursuitDirection": {
+          "label": "추구방향",
+          "positivePole": {
+            "name": "성장 / 변화 추구 (Growth-Seeking)",
+            "description": "새로운 도전과 자기계발, 현상 타파를 즐김"
+          },
+          "negativePole": {
+            "name": "안정 / 현상유지 추구 (Stability-Seeking)",
+            "description": "익숙하고 예측 가능한 환경에서 편안함을 느낌"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.1,
+            "oral": 0.1,
+            "anal": -0.2,
+            "phallic": 0.3,
+            "order": -0.2,
+            "balance": 0.1,
+            "chaos": 0.3
+          }
+        },
+        "timePerspective": {
+          "label": "시간관점",
+          "positivePole": {
+            "name": "미래 지향 (Future-Oriented)",
+            "description": "장기적인 목표와 계획을 세우고 현재를 투자함"
+          },
+          "negativePole": {
+            "name": "현재 지향 (Present-Oriented)",
+            "description": "지금 이 순간의 즐거움과 만족을 가장 중시함"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.2,
+            "superego": 0.2,
+            "oral": 0.0,
+            "anal": 0.2,
+            "phallic": 0.1,
+            "order": 0.3,
+            "balance": 0.1,
+            "chaos": -0.2
+          }
+        },
+        "valueScale": {
+          "label": "가치척도",
+          "positivePole": {
+            "name": "물질주의 (Materialism)",
+            "description": "물질적 소유와 부를 성공과 행복의 척도로 삼음"
+          },
+          "negativePole": {
+            "name": "탈물질주의 / 경험주의 (Post-Materialism)",
+            "description": "경험, 관계, 자아실현 등 정신적 가치를 중시"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.1,
+            "superego": 0.2,
+            "oral": 0.1,
+            "anal": 0.2,
+            "phallic": 0.1,
+            "order": 0.2,
+            "balance": 0.1,
+            "chaos": -0.1
+          }
+        },
+        "beliefSystem": {
+          "label": "신념체계",
+          "positivePole": {
+            "name": "진보주의 (Progressivism)",
+            "description": "사회적 변화와 개혁, 다양성을 옹호"
+          },
+          "negativePole": {
+            "name": "전통주의 (Traditionalism)",
+            "description": "기존의 질서와 가치, 공동체의 안정을 옹호"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.3,
+            "oral": 0.1,
+            "anal": 0.1,
+            "phallic": 0.1,
+            "order": 0.1,
+            "balance": 0.2,
+            "chaos": 0.1
+          }
+        }
+      }
+    },
+    "socialBehavior": {
+      "name": "사회적 행동 양식",
+      "description": "타인과의 상호작용 방식",
+      "traits": {
+        "energyDirection": {
+          "label": "에너지방향",
+          "positivePole": {
+            "name": "외향성 (Extraversion)",
+            "description": "사회적 상호작용을 통해 에너지를 얻고 자극을 추구"
+          },
+          "negativePole": {
+            "name": "내향성 (Introversion)",
+            "description": "혼자만의 시간을 통해 에너지를 충전하고 자극을 회피"
+          },
+          "finalWeights": {
+            "id": 0.4,
+            "ego": 0.1,
+            "superego": -0.2,
+            "oral": 0.2,
+            "anal": -0.3,
+            "phallic": 0.4,
+            "order": -0.2,
+            "balance": 0.1,
+            "chaos": 0.3
+          }
+        },
+        "relationshipPreference": {
+          "label": "관계선호",
+          "positivePole": {
+            "name": "광범위한 관계 (Broad Network)",
+            "description": "다양한 사람들과 넓고 얕은 관계를 맺는 것을 선호"
+          },
+          "negativePole": {
+            "name": "집중된 관계 (Deep Network)",
+            "description": "소수의 사람들과 깊고 친밀한 관계를 맺는 것을 선호"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.2,
+            "oral": 0.4,
+            "anal": 0.1,
+            "phallic": 0.1,
+            "order": 0.1,
+            "balance": 0.2,
+            "chaos": 0.0
+          }
+        },
+        "conflictResolution": {
+          "label": "갈등대처",
+          "positivePole": {
+            "name": "자기주장 / 경쟁 (Assertive/Competitive)",
+            "description": "자신의 의견과 이익을 명확히 주장하고 관철"
+          },
+          "negativePole": {
+            "name": "수용 / 타협 (Accommodating/Compromising)",
+            "description": "조화를 위해 양보하거나 타협점을 찾으려 노력"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.2,
+            "oral": 0.2,
+            "anal": 0.1,
+            "phallic": 0.2,
+            "order": 0.1,
+            "balance": 0.3,
+            "chaos": 0.1
+          }
+        },
+        "socialRole": {
+          "label": "사회적 역할",
+          "positivePole": {
+            "name": "주도성 (Proactive/Leading)",
+            "description": "상황을 주도하고 타인을 이끌려는 경향"
+          },
+          "negativePole": {
+            "name": "수용성 (Reactive/Following)",
+            "description": "상황에 순응하고 타인의 의견을 따르려는 경향"
+          },
+          "finalWeights": {
+            "id": 0.3,
+            "ego": 0.1,
+            "superego": 0.1,
+            "oral": 0.1,
+            "anal": 0.1,
+            "phallic": 0.3,
+            "order": 0.1,
+            "balance": 0.1,
+            "chaos": 0.2
+          }
+        },
+        "communicationStyle": {
+          "label": "소통방식",
+          "positivePole": {
+            "name": "직설적 소통 (Direct Communication)",
+            "description": "요점을 명확하고 직접적으로 전달"
+          },
+          "negativePole": {
+            "name": "맥락적 소통 (High-Context Communication)",
+            "description": "분위기, 뉘앙스 등 간접적인 방식으로 전달"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": 0.1,
+            "superego": 0.1,
+            "oral": 0.2,
+            "anal": 0.1,
+            "phallic": 0.2,
+            "order": 0.2,
+            "balance": 0.1,
+            "chaos": 0.1
+          }
+        }
+      }
+    },
+    "otherHabitsPreferences": {
+      "name": "기타 습관 및 선호",
+      "description": "일상적 선호와 습관",
+      "traits": {
+        "aestheticPreference": {
+          "label": "미적선호",
+          "positivePole": {
+            "name": "맥시멀리즘 (Maximalism)",
+            "description": "다채롭고, 화려하고, 복잡한 디자인을 선호"
+          },
+          "negativePole": {
+            "name": "미니멀리즘 (Minimalism)",
+            "description": "단순하고, 절제되고, 본질적인 디자인을 선호"
+          },
+          "finalWeights": {
+            "id": 0.2,
+            "ego": -0.1,
+            "superego": 0.3,
+            "oral": 0.1,
+            "anal": -0.2,
+            "phallic": 0.1,
+            "order": -0.3,
+            "balance": 0.2,
+            "chaos": 0.4
+          }
+        },
+        "environmentPreference": {
+          "label": "환경선호",
+          "positivePole": {
+            "name": "도시 / 문명 선호 (Urbanophile)",
+            "description": "편리함, 역동성, 다양한 문화적 자극을 즐김"
+          },
+          "negativePole": {
+            "name": "자연 / 한적함 선호 (Biophile)",
+            "description": "평화로움, 고요함, 자연과의 교감을 즐김"
+          },
+          "finalWeights": {
+            "id": 0.1,
+            "ego": 0.1,
+            "superego": 0.1,
+            "oral": 0.1,
+            "anal": 0.1,
+            "phallic": 0.1,
+            "order": 0.1,
+            "balance": 0.2,
+            "chaos": 0.1
+          }
+        },
+        "consumptionHabit": {
+          "label": "소비습관",
+          "positivePole": {
+            "name": "계획적 소비 (Planned Spending)",
+            "description": "예산을 세우고 필요에 따라 신중하게 소비"
+          },
+          "negativePole": {
+            "name": "즉흥적 소비 (Impulse Spending)",
+            "description": "감정이나 즉각적인 욕구에 따라 유연하게 소비"
+          },
+          "finalWeights": {
+            "id": 0.0,
+            "ego": 0.2,
+            "superego": 0.1,
+            "oral": 0.0,
+            "anal": 0.3,
+            "phallic": 0.1,
+            "order": 0.3,
+            "balance": 0.1,
+            "chaos": -0.1
+          }
+        }
+      }
+    }
+  }
+}
